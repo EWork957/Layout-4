@@ -5,6 +5,7 @@ const { GoogleAuth } = require('google-auth-library');
 
 const app = express();
 const PORT = 3000;
+app.use(cors());
 
 // Define the accessToken variable
 let accessToken = '';
